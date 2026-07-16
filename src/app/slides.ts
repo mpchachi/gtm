@@ -24,18 +24,18 @@ export const PHASES: Phase[] = [
     window: 'Months 3–5',
     title: 'Regulatory & legal green light',
     points: [
-      'CEIm + AEMPS approval',
+      'Regulatory classification underway',
+      'CEIm + AEMPS pathway',
       'GDPR/DPIA, consent & claims pack',
-      'CE-marking pathway started',
     ],
   },
   {
     window: 'Months 6–8',
     title: 'First pilot — Gregorio Marañón',
     points: [
+      'LOI signed by Head of Neurology',
       '30 patients, on-site then at home',
-      'Reliable biomarker capture',
-      'Evidence package compiled',
+      'Biomarker validation vs FMA-UE',
     ],
   },
   {

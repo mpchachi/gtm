@@ -55,7 +55,7 @@ function CoverSlide() {
             transition={{ duration: 0.55, delay: 0.4 }}
             className="mt-10 text-sm text-[#6B7689]"
           >
-            FixedGap · June 2026
+            FixedGap · 2026
           </motion.p>
         </div>
         <ImageSlot
@@ -110,7 +110,7 @@ function RoadmapSlide() {
   return (
     <Slide>
       <Overline>The plan at a glance</Overline>
-      <Title>From confirmed pilot to Seed</Title>
+      <Title>From signed LOI to Seed</Title>
       <div className="mt-10 max-w-4xl">
         {PHASES.map((phase, i) => (
           <motion.div
