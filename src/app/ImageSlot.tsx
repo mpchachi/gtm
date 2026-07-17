@@ -11,10 +11,12 @@ export function ImageSlot({
   src,
   label,
   className = '',
+  fit = 'cover',
 }: {
   src: string;
   label: string;
   className?: string;
+  fit?: 'cover' | 'contain';
 }) {
   const [failed, setFailed] = useState(false);
 
@@ -26,7 +28,7 @@ export function ImageSlot({
           src={src}
           alt={label}
           onError={() => setFailed(true)}
-          className="h-full w-full object-cover"
+          className={`h-full w-full ${fit === 'contain' ? 'object-contain p-3' : 'object-cover'}`}
         />
       ) : (
         <div className="flex h-full w-full flex-col items-center justify-center gap-2 border border-dashed border-[#D8CEBB] text-[#A99F8C]">

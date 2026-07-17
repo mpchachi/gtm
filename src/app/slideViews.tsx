@@ -245,7 +245,7 @@ function PharmaSlide() {
         </ul>
         <div className="flex items-center gap-6">
           <PersonSlot src={PHARMA_PERSON.img} name={PHARMA_PERSON.name} role={PHARMA_PERSON.role} />
-          <ImageSlot src="/images/pfizer.jpeg" label="Pfizer" className="h-16 w-40" />
+          <ImageSlot src="/images/pfizer.svg" label="Pfizer" className="h-16 w-40 bg-white" fit="contain" />
         </div>
       </div>
     </Slide>
