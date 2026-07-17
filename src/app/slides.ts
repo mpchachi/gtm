@@ -57,8 +57,8 @@ export const PHASES: Phase[] = [
 
 // People behind the Gregorio Marañón pilot (Months 1–3 / 6–8)
 export const MARANON_PEOPLE: Person[] = [
-  { name: 'Dr. Andrés García Pastor', role: 'Head of Stroke Dept.', img: '/images/andres-garcia.jpg' },
-  { name: 'Dr. Gustavo Arrieta', role: 'Neurorehabilitation', img: '/images/gustavo-arrieta.jpg' },
+  { name: 'Dr. Andrés García Pastor', role: 'Head of Stroke Dept.', img: '/images/andres-garcia.webp' },
+  { name: 'Dr. Gustavo Arrieta', role: 'Neurorehabilitation', img: '/images/gustavo-arrieta.webp' },
 ];
 
 // Second-site + commercial channels (Months 9–15)
